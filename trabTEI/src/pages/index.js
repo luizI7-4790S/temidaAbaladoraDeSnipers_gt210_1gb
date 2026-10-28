@@ -88,7 +88,7 @@ const styles = {
 export default function IndexPage() {
   // Estado para armazenar o histórico de mensagens
   const [mensagens, setMensagens] = useState([
-{ id: 1, remetente: 'bot', texto: 'Oi! 🤖 Eu sou o Eugine. Se precisar de Preços, Requisitos minimos, saber sobre Jogos ou, até mesmo, encontrar o menor preço, me chame!' },
+{ id: 1, remetente: 'bot', texto: 'Oi! 👍 Eu sou o Eugine. Se precisar de Preços, Requisitos minimos, saber sobre Jogos ou, até mesmo, encontrar o menor preço, me chame!' },
   ])
 
   // Estado para armazenar o valor do campo de texto
@@ -116,7 +116,7 @@ export default function IndexPage() {
       const respostaBot = {
         id: Date.now() + 1, //tlk o time de 1 segundo pra simular o silício pensando
         remetente: 'bot',
-        texto: `Você pesquisou por: ${textoFormatado}. Aguarde a integração com a API para ver mais informações a respeito.`,
+        texto: `nao`,
       }
       setMensagens((prev) => [...prev, respostaBot])
     }, 600)
