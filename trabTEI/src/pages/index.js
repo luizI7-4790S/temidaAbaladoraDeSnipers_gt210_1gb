@@ -25,12 +25,12 @@ const styles = {
     overflow: 'hidden',
   },
   header: {
-    backgroundColor: '#2c9bc7',
+    backgroundColor: '#127ea8',
     color: '#ffffff',
     padding: '16px',
     fontWeight: 'bold',
     textAlign: 'center',
-    fontSize: '20px',
+    fontSize: '18px',
   },
   messagesBox: {
     flex: 1,
@@ -88,7 +88,7 @@ const styles = {
 export default function IndexPage() {
   // Estado para armazenar o histórico de mensagens
   const [mensagens, setMensagens] = useState([
-{ id: 1, remetente: 'bot', texto: 'Olá! 🤖 Eu sou o Eugine. Se precisar de Preços, Requisitos minimos, saber sobre Jogos ou, até mesmo, encontrar o menor preço, me chame!' },
+{ id: 1, remetente: 'bot', texto: 'Oi! 🤖 Eu sou o Eugine. Se precisar de Preços, Requisitos minimos, saber sobre Jogos ou, até mesmo, encontrar o menor preço, me chame!' },
   ])
 
   // Estado para armazenar o valor do campo de texto
